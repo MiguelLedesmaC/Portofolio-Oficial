@@ -26,8 +26,8 @@ let menu = document.querySelector('.ul-mobile');
 const main = document.querySelector('.main');
 
 // Variables para imagenes
-const cerrarHamburguesa = '../assets/icon-close.svg';
-const abrirHamburguesa = '../assets/icon-hamburger.svg';
+const cerrarHamburguesa = './assets/icon-close.svg';
+const abrirHamburguesa = './assets/icon-hamburger.svg';
 let menuHamburguesa = false;
 
 hamburguesa.addEventListener('click', () => {
