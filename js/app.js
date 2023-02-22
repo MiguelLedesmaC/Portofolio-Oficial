@@ -33,13 +33,13 @@ let menuHamburguesa = false;
 hamburguesa.addEventListener('click', () => {
     if(menuHamburguesa == false) {
         menuHamburguesa = true;
-        hamburguesa.src = cerrarHamburguesa;
+        hamburguesa.src = '../assets/icon-close.svg';
         menu.style.top = '0rem';
         menu.style.left ='0';
         menu.style.opacity = '1'
     }else {
         menuHamburguesa = false;
-        hamburguesa.src = abrirHamburguesa;
+        hamburguesa.src = '../assets/icon-hamburger.svg';
         menu.style.top = '-200rem';
         menu.style.left ='80rem';
         menu.style.opacity = '0';
