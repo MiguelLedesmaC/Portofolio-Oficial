@@ -300,7 +300,9 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
     margin: 2em 0 0;
+    
 }
 .seccion .ul .li {
     margin: 0 1em;
@@ -320,6 +322,7 @@ body {
 .seccion .ul .a:hover {
   border-color: var(--negro);
   color: var(--negro);
+
 }
 
 .seccion .h2{
