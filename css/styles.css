@@ -18,7 +18,7 @@
     --cyan-menu-nav:rgb(65, 200, 245);
     --cyan-works:rgba(17, 145, 188, .3);
 }
-@media screen and (prefers-color-scheme:dark){
+@media screen and (prefers-color-scheme:light){
   :root {
     --blanco: #FE6F27;
     --blanco-h2: white;
