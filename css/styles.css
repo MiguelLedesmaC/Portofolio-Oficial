@@ -285,6 +285,9 @@ body {
     border-bottom: 1px solid var(--blanco);
 }
 .seccion,.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   font-size: 1em; 
   animation: aparecer1 2s ease 1 both;
   padding: 1rem;
