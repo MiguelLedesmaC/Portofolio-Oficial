@@ -27,10 +27,10 @@ const main = document.querySelector('.main');
 
 // Variables para imagenes
 const cerrarHamburguesa = '../assets/icon-close.svg';
-const abrirHamburguesa = '../assets/icon-hamburger.svg'
+const abrirHamburguesa = '../assets/icon-hamburger.svg';
 let menuHamburguesa = false;
 
-console.log(hamburguesa);
+
 hamburguesa.addEventListener('click', () => {
     if(menuHamburguesa == false) {
         menuHamburguesa = true
