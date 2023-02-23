@@ -343,7 +343,7 @@ body {
 .seccion .h4{
     width: 100%;
     height: 100%;
-    font-size: 1.4;
+    font-size: 1.4rem;
     font-family: var(--tipo-titular);
     font-style: italic;
     background-color: var(--cyan-works);
@@ -407,7 +407,6 @@ body {
   opacity: .6;
   margin: 1em;
   background-color: var(--blanco);
-
 }
 .about .rrss{
     width: 100%;
@@ -420,6 +419,9 @@ body {
 .about-title {
   font-size: 1.8rem;
   margin-bottom: 1rem;
+}
+.redes-contacto {
+  font-size: 1.5rem;
 }
 .about .li{
 
