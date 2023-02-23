@@ -41,6 +41,7 @@
   box-sizing: border-box;
   vertical-align: baseline;
 }
+
 img , figure{
   max-width: 100%;
   width: 100%;
@@ -329,7 +330,6 @@ body {
 .seccion .article{
     width: 100%;
     min-height: 20vh;
-    
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -380,7 +380,7 @@ body {
   margin: 3rem 2rem;
 }
 .about{
-  padding: 2rem;
+  padding: 4rem 2rem;
 
 }
 .about .h2{
@@ -417,10 +417,12 @@ body {
     margin-top: 2rem;
 }
 .about-title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
+  color: var(--blanco-h2);
 }
 .redes-contacto {
+  color: var(--blanco-h2);
   font-size: 1.5rem;
 }
 .about .li{
