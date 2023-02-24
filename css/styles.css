@@ -290,7 +290,7 @@ body {
   gap: 2rem;
   font-size: 1em; 
   animation: aparecer1 2s ease 1 both;
-  padding: 1rem;
+  padding: 4rem 0;
 }
 .section .div-name {
   width: 100%;
