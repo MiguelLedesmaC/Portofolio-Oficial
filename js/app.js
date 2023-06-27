@@ -23,14 +23,16 @@
 // })
 
 // })
-
+// Variables menu mobile
 let hamburguesa = document.querySelector("#hamburguer");
 let menu = document.querySelector(".ul-mobile");
 
 const main = document.querySelector(".main");
 
+// Variable Theme mode
 const tema = document.querySelector("#toggle-theme");
 const iconoTema = document.getElementById("icon-theme");
+const menuToggle = document.querySelector('.menu-toggle');
 
 // Variables para imagenes
 const cerrarHamburguesa = "./assets/icon-close.svg";
@@ -39,16 +41,14 @@ const temaClaro = "./assets/icons/light.svg";
 const temaClaroFull = "./assets/icons/light-full.svg";
 const temaOscuro = "./assets/icons/dark.svg";
 const temaOscuroFull = "./assets/icons/dark-full.svg";
-let menuHamburguesa = false;
-const menuToggle = document.querySelector('.menu-toggle');
 
+let menuHamburguesa = false;
 
 // Menu movil
 menuToggle.addEventListener("click", () => {
   menuToggle.classList.toggle('active');
   if (menuHamburguesa == false) {
     menuHamburguesa = true;
-
     menu.style.top = "0rem";
     menu.style.left = "0";
     menu.style.opacity = "1";
@@ -60,7 +60,6 @@ menuToggle.addEventListener("click", () => {
   }
 });
 
-
 main.addEventListener("click", () => {
   hamburguesa.src = abrirHamburguesa;
   menuHamburguesa = false;
@@ -69,7 +68,7 @@ main.addEventListener("click", () => {
   menu.style.opacity = "0";
 });
 
-// Tema oscuro/claro
+// Boton tema oscuro/claro
 tema.addEventListener("click", (e) => {
   const isDarkMode = document.body.classList.contains("dark-mode");
 
@@ -89,32 +88,17 @@ tema.addEventListener("mouseover", () => {
   isDarkMode
     ? (iconoTema.src = temaClaroFull)
     : (iconoTema.src = temaOscuroFull);
-  iconoTema.style.filter = "brightness(0%)";
+    iconoTema.style.filter = "brightness(0%)";
 });
 tema.addEventListener("mouseout", () => {
   const isDarkMode = document.body.classList.contains("dark-mode");
 
-  isDarkMode ? (iconoTema.src = temaClaro) : (iconoTema.src = temaOscuro);
+  isDarkMode 
+  ? (iconoTema.src = temaClaro) 
+  : (iconoTema.src = temaOscuro);
   iconoTema.style.filter = "brightness(100%)";
 });
 
-
-
-
-// Envio de formulario mediante mailto
-
-//const buttonMailTo = document.querySelector("#send-mail")
-
-// formulario.addEventListener('submit',handleSubmit)
-
-// function handleSubmit (event) {
-//   event.preventDefault();
-//   const formData = new FormData(this);
-
-//   console.log(formData.get('nombre'))
-//   buttonMailTo.setAttribute('href', `mailto:xcorpio27@gmail.com?subject=${formData.get('name')} ${formData.get('email')}&body=${formData.get('mensaje')}`)
-//   buttonMailTo.click();
-// }
 
 // Envio de formulario con EmailJs
 const formulario = document.querySelector('#formulario');
@@ -142,10 +126,7 @@ document.getElementById('formulario')
     });
 });
 
-
-/**
- * Muestra el toast al hacer click en enviar
- */
+// Muestra el toast al hacer click en enviar
 function showToast() {
   toastContainer.classList.add('show');
 

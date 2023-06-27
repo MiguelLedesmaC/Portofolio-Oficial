@@ -505,16 +505,18 @@ body {
 }
 .input-form {
   width: 100%;
-  padding: 0.6rem;
+  padding: 1rem 0;
   border-bottom: 1px solid var(--blanco);
   border-radius: 0.3rem;
   outline: none;
+  color: var(--blanco);
 }
+
 .input-message {
   border: 1px solid var(--blanco);
 }
 .input-form::placeholder {
-  color: var(--negroHover);
+  color: var(--blanco);
   font-size: 1.4rem;
 }
 #form-mensaje {
