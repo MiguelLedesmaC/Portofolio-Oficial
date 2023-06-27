@@ -43,6 +43,7 @@ let menuHamburguesa = false;
 const menuToggle = document.querySelector('.menu-toggle');
 
 
+// Menu movil
 menuToggle.addEventListener("click", () => {
   menuToggle.classList.toggle('active');
   if (menuHamburguesa == false) {
@@ -68,6 +69,7 @@ main.addEventListener("click", () => {
   menu.style.opacity = "0";
 });
 
+// Tema oscuro/claro
 tema.addEventListener("click", (e) => {
   const isDarkMode = document.body.classList.contains("dark-mode");
 
