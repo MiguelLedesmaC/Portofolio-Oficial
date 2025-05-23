@@ -5,7 +5,7 @@
 ## Descripcion
 
 Aqui presento mi portofolio sencillo, el cual irá obteniendo mejoras segun vaya pasando el tiempo, lo he hecho con html, css y javascript.
-Un portofolio sencillo y adaptable a movil y desktop, el cual presento con unos cuantos proyectos, y un poco sobre mí. Espero que guste.
+Un portofolio adaptable a movil y desktop, el cual presento con unos cuantos proyectos, y un poco sobre mí. Espero que guste.
 
 ## Autor
 **Miguel Ledesma**
